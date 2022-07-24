@@ -1,0 +1,27 @@
+.tblwd{
+    width : 50%;
+}
+
+.row{
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 767px) {
+    .tblwd{
+   width : 100% ;
+    }
+
+    th:first-child, td:first-child
+{
+  position:sticky;
+  left:0px;
+ 
+}
+ td:first-child
+ {
+  background-color:grey;
+ }
+}
+
+

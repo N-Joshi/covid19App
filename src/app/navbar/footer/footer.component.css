@@ -1,0 +1,17 @@
+.link a {
+    background: rgba(0,123,255,.0627451) !important;
+    color: #007bff !important;
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background .2s ease-in-out;
+    word-wrap: break-word;
+}
+
+.links .github{
+    color: rgba(12, 12, 12, 0.274) !important;
+}
+
+.links .api{
+    color: rgba(184, 109, 12, 0.473) !important
+}
